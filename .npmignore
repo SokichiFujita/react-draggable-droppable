@@ -1,7 +1,11 @@
 
 src/
+demo/
 __tests__/
 .eslintrc
 .babelrc
 webpack.config.js
 webpack.demo.config.js
+README.md
+LICENSE
+
