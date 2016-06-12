@@ -2,7 +2,8 @@ const webpack = require('webpack');
 
 const config = {
   entry: {
-    index: ["./src/index.js"],
+    ReactDraggable: ["./src/ReactDraggable.js"],
+    ReactDroppable: ["./src/ReactDroppable.js"],
   },
   output: {
     path: __dirname + '/lib',

@@ -2,7 +2,6 @@
   "name": "react-draggable-droppable",
   "version": "1.0.4",
   "description": "A drag and drop component for React.js",
-  "main": "lib/index.js",
   "scripts": {
     "start": "webpack-dev-server -d --config webpack.demo.config.js --progress --colors --display-error-details",
     "build-demo": "NODE_ENV=production node_modules/.bin/webpack -p --config webpack.demo.config.js --progress --colors --display-error-details",
@@ -25,6 +24,7 @@
   },
   "author": "Sokichi Fujita <dimension.sf@gmail.com> (https://github.com/SokichiFujita)",
   "license": "MIT",
+  "main": "./lib/",
   "repository": {
     "type": "git",
     "url": "https://github.com/SokichiFujita/react-draggable-droppable"
